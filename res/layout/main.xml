@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25dip"
+        android:text="@string/title" />
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >      
+        <TextView
+        android:id="@+id/want"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dip"
+        android:text="@string/want"/>
+    </LinearLayout>
+    
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:stretchColumns="*" >
+
+        <TableRow 
+            android:background="#000000"
+            android:layout_margin="1dip">
+            <TextView 
+                android:text="@string/event"
+                android:textSize="20dip"/>
+            <TextView 
+                android:text="@string/possibility"
+                android:textSize="20dip"/>
+        </TableRow>
+    </TableLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center" >      
+        <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dip"
+        android:text="@string/start"/>
+        <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dip"
+        android:text="@string/back"/>
+        <Button
+        android:id="@+id/quit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dip"
+        android:text="@string/exit"/>
+    </LinearLayout>
+    
+</LinearLayout>

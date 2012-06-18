@@ -3,14 +3,16 @@
 
     <string name="app_name">Random</string>
     <string name="title">Random</string>
-    <string name="number_chosen">现在你有几个选择？</string>
-    <string name="hint_number_chosen">在这</string>
-    <string name="next">下一步</string>
     <string name="want">你想分给他们多少概率?</string>
     <string name="event">事件</string>
     <string name="possibility">概率</string>
     <string name="start">开始</string>
-    <string name="back">后退</string>
+    <string name="reset">重置</string>
     <string name="exit">退出</string>
+    <string name="add">+</string>
+    <string name="del">-</string>
+    <string name="again">again</string>
+    <string name="ok">OK</string>
+    <string name="please">please </string>
 
 </resources>
